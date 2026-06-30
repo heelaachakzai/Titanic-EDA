@@ -4,6 +4,8 @@ USER root
 
 COPY . /app
 
+ENV SUPERSET_CONFIG_PATH=/app/superset_config.py
+
 USER superset
 
 EXPOSE 8088
