@@ -5,6 +5,7 @@ USER root
 COPY . /app
 
 RUN pip install --no-cache-dir -r /app/requirements.txt
+RUN pip install --no-cache-dir psycopg2-binary
 
 ENV SUPERSET_CONFIG_PATH=/app/superset_config.py
 
