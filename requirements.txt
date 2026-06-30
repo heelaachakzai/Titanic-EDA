@@ -1,0 +1,7 @@
+apache-superset
+pandas
+numpy
+matplotlib
+seaborn
+sqlalchemy
+gunicorn
